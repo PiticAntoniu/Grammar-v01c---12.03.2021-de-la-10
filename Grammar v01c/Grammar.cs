@@ -65,6 +65,7 @@ set of production rules P = {FormatAsSet(ProductionList)}<br>";
         internal string GrammarInfoAsHTML()
         {
             StringBuilder t = new StringBuilder();
+            t.Append("Start symbol:" + startSymbol.ToString() + "br");
             t.Append("nonterminals  N=");
             t.Append(Helper.FormatAsSet(nonterminals, Properties.Resources.NonterminalsColor));
             t.Append("<br>terminals&nbsp&nbsp&nbsp&nbsp&nbsp&nbspT=");
