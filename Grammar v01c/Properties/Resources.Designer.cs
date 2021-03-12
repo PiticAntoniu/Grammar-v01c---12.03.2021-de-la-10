@@ -79,7 +79,7 @@ namespace Grammar_v01c.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Red.
+        ///   Looks up a localized string similar to Magenta.
         /// </summary>
         internal static string NonterminalsColor {
             get {
