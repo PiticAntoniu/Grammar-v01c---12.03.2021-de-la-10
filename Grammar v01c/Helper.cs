@@ -49,6 +49,19 @@ namespace Grammar_v01c
 
             return result;
         }
+
+        internal static string CharListToString(List<char> charList)
+        {
+            StringBuilder result = new StringBuilder();
+
+            foreach (var c in charList)
+            {
+                result.Append(c);
+            }
+
+            return result.ToString();
+        }
+
         internal static string FormatAsSet(List<char> input, string colorName)
         {
             StringBuilder result = new StringBuilder();
